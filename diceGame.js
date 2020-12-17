@@ -11,7 +11,7 @@ button.addEventListener("click", () => {
     }
     let x = Math.floor(Math.random() * 6) + 1;
     let y = parseInt(score.innerHTML);
-    dice.src = `./Dice ${x}.png`;
+    dice.src = `./dice${x}.png`;
     
     if (x === 1) {
         player.innerHTML = "You Lose!";
